@@ -35,7 +35,6 @@
             drow: function () {
                 ctx.beginPath();
                 ctx.fillStyle = ballH.color;
-                ctx.shadowColor = 'white';
                 ctx.arc(ballH.posX, ballH.posY, ballH.r, 0, Math.PI*2, false);
                 ctx.closePath();
                 ctx.fill();

@@ -1,0 +1,8 @@
+/*start menu*/
+* {
+    margin:0;
+    padding:0; 
+}
+canvas:hover {
+    cursor: none;
+}
